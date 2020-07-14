@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ale\\Desktop\\Senai\\EPlayersFinalizado\\EPlayersFinalizado.csproj",
+      "projectUniqueName": "C:\\Users\\ale\\Desktop\\Senai\\EPlayers\\EPlayersFinalizado.csproj",
       "projectName": "EPlayersFinalizado",
-      "projectPath": "C:\\Users\\ale\\Desktop\\Senai\\EPlayersFinalizado\\EPlayersFinalizado.csproj",
+      "projectPath": "C:\\Users\\ale\\Desktop\\Senai\\EPlayers\\EPlayersFinalizado.csproj",
       "packagesPath": "C:\\Users\\ale\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ale\\Desktop\\Senai\\EPlayersFinalizado\\obj\\",
+      "outputPath": "C:\\Users\\ale\\Desktop\\Senai\\EPlayers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ale\\AppData\\Roaming\\NuGet\\NuGet.Config"
