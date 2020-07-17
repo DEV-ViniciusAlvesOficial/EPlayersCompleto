@@ -20526,13 +20526,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ale\\Desktop\\Senai\\EPlayers\\Views\\Equipes\\Index.cshtml",
-      "TargetPath": "Views\\Equipes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ale\\Desktop\\Senai\\EPlayers\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\ale\\Desktop\\Senai\\EPlayers\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

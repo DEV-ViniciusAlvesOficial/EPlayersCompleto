@@ -12,6 +12,9 @@ namespace EPlayersFinalizado.Models
 
         private const string PATH = "Database/equipe.csv";
 
+        /// <summary>
+        /// Cria FolderAndFile Equipe
+        /// </summary>
         public Equipe()
         {
             CreateFolderAndFile(PATH);
@@ -22,7 +25,7 @@ namespace EPlayersFinalizado.Models
         /// <summary>
         /// Cria Equipe
         /// </summary>
-        /// <param name="e create Equipe"></param>
+        /// <param name="e">Equipe</param>
         public void Create(Equipe e)
         {
             string[] linha = {Prepare(e)};
@@ -32,15 +35,15 @@ namespace EPlayersFinalizado.Models
         /// <summary>
         /// Preparando linhas CSV
         /// </summary>
-        /// <param name="Prepare linha equipe"></param>
-        /// <returns></returns>
+        /// <param name="e">Equipe</param>
+        /// <returns>IdEquipe; Nome; Imagem</returns>
         private string Prepare(Equipe e){
             return $"{e.IdEquipe}; {e.Nome}; {e.Imagem}";
         }
         /// <summary>
         /// Deleta uma equipe
         /// </summary>
-        /// <param name="Delete Equipe"></param>
+        /// <param name="IdEquipe">Id da equipe</param>
         public void Delete(int IdEquipe)
         {
            List<string> linhas = ReadAllLinesCSV (PATH);
@@ -73,7 +76,7 @@ namespace EPlayersFinalizado.Models
         /// <summary>
         /// Update linha
         /// </summary>
-        /// <param name="Update linha equipe"></param>
+        /// <param name="e">Equipe</param>
         public void Update(Equipe e)
         {
             List<string> linhas = ReadAllLinesCSV (PATH);
