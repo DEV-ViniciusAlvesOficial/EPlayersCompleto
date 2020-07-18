@@ -38,7 +38,7 @@ namespace EPlayersFinalizado.Models
         /// <param name="e">Equipe</param>
         /// <returns>IdEquipe; Nome; Imagem</returns>
         private string Prepare(Equipe e){
-            return $"{e.IdEquipe}; {e.Nome}; {e.Imagem}";
+            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
         /// <summary>
         /// Deleta uma equipe
@@ -50,6 +50,8 @@ namespace EPlayersFinalizado.Models
             linhas.RemoveAll (y => y.Split (";") [0] == IdEquipe.ToString ());
             RewriteCSV (PATH, linhas);
         }
+
+
         /// <summary>
         /// Lendo lista Equipe
         /// </summary>

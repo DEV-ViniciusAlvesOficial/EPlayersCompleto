@@ -72,3 +72,4 @@ C:\Users\ale\Desktop\Senai\EPlayers\obj\Debug\netcoreapp3.1\EPlayersFinalizado.p
 C:\Users\ale\Desktop\Senai\EPlayers\obj\Debug\netcoreapp3.1\EPlayersFinalizado.genruntimeconfig.cache
 C:\Users\ale\Desktop\Senai\EPlayers\obj\Debug\netcoreapp3.1\EPlayersFinalizado.csproj.CopyComplete
 C:\Users\ale\Desktop\Senai\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
+C:\Users\ale\Desktop\Senai\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Noticia\Index.cshtml.g.cs
